@@ -1,0 +1,304 @@
+.body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.conteiner {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.header_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+.header_menu .eye {
+  display: flex;
+  align-items: center;
+  background: #00868a;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.header_menu .vector {
+  margin-right: 10px;
+}
+
+.services {
+  background: #4fbfa5;
+}
+
+.services_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  font-size: 18px;
+  padding-top: 30px;
+}
+
+.services_menu .appointment {
+  font-size: 18px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.services_info {
+  display: flex;
+
+  margin-top: 30px;
+}
+
+.services_tittle {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  margin-top: 120px;
+}
+
+.services_tittle .h1 {
+  font-size: 48px;
+}
+
+.services_tittle .tittle {
+  font-size: 14px;
+  margin-right: 130px;
+}
+
+.services_tittle .details {
+  width: 160px;
+  margin-top: 30px;
+  background: #00868a;
+  color: #ffffff;
+  padding: 15px 25px;
+}
+
+.services-img_group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 24px 60px 0 0;
+}
+
+.services_details {
+  display: flex;
+  flex-direction: column;
+}
+
+.services_blocks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  font-size: 21px;
+}
+
+.services_blocks .block1 {
+  background: #00868a;
+  padding: 24px 200px;
+}
+
+.services_blocks .block3 {
+  background: #00868a;
+  padding: 24px 100px;
+}
+
+.innovation {
+  margin-top: 80px;
+}
+
+.innovation_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.innovation_course {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 526px;
+  background: #00868a;
+  color: #ffffff;
+}
+
+.innovation_newcourse {
+  padding: 35px;
+}
+
+.innovation_newcourse .innovation_span {
+  background: #4fbfa5;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.innovation_newcourse .tittle {
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+.innovation_course .frame {
+  width: 50px;
+}
+
+.innovation_course .details {
+  display: flex;
+  align-items: center;
+  padding-top: 25px;
+  font-size: 16px;
+}
+
+.innovation_course .details span {
+  padding-left: 10px;
+}
+
+.innovation_patent {
+  padding-top: 35px;
+  color: #b3b3b3;
+}
+
+.innovation_patent .aesthetics {
+  background: #4fbfa5;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.innovation_patent .tittle {
+  padding-left: 30px;
+  font-size: 14px;
+}
+
+.innovation_patent-tittle {
+  display: flex;
+  align-items: center;
+  padding-top: 45px;
+}
+
+.innovation_patent-twenty {
+  display: flex;
+  align-items: center;
+  padding-top: 65px;
+}
+
+.innovation_patent-twenty .twenty {
+  font-size: 96px;
+  color: #00868a;
+}
+
+.innovation_patent-twenty .tittle {
+  font-size: 28px;
+  line-height: 42px;
+  color: #000;
+}
+
+.innovation_patent-tittle .number {
+  font-size: 48px;
+}
+
+.innovation_patent-wrapper {
+  display: flex;
+  padding-left: 100px;
+}
+
+.news {
+  padding-top: 80px;
+}
+
+.news_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news_list {
+  background: #4fbfa5;
+  color: #ffffff;
+  font-size: 18px;
+  padding-top: 30px;
+}
+
+.news_list .news_span {
+  background: #00868a;
+  padding: 10px;
+  margin-left: 35px;
+}
+
+.news_list .tittle {
+  width: 526px;
+  padding: 15px 35px;
+}
+
+.news_list .tittle_green {
+  margin-top: 30px;
+  background: #00868a;
+  padding: 35px;
+}
+
+.news_interpretation {
+  background: #e6f3f4;
+  padding: 14px 60px 0 60px;
+}
+
+.special {
+  padding-top: 180px;
+}
+
+.special_list {
+  display: flex;
+  padding-top: 30px;
+}
+
+.special_list-item {
+  padding-right: 24px;
+}
+
+.special_list-item .block {
+  display: flex;
+  padding: 25px;
+  background: #00868a;
+  color: #ffff;
+}
+
+.special_list-item .frame {
+  padding-left: 10px;
+}
+
+.special_offers h2 {
+  text-align: center;
+  font-size: 42px;
+  color: #00868a;
+}
+
+.footer {
+  padding-top: 80px;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+
+.footer-info .p {
+  width: 300px;
+}
+
+.footer-info .eye {
+  display: flex;
+  align-items: center;
+  background: #00868a;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.footer-info .vector {
+  margin-right: 5px;
+}
